@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/workouts
+Content-Type: application/json
+
+{"date": "2026-11-04", "notes": "Felt strong today"}
+
+###
+
+GET http://localhost:8080/api/workouts
